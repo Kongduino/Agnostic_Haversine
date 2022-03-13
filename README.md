@@ -1,6 +1,6 @@
 # haversine.cpp
 
-Quick code that provides the distance between two GNSS coordinates in kilometers and miles. And because whynot? I added a Python3 version.
+Quick code that provides the distance between two GNSS coordinates in kilometers and miles. And because whynot? I added a Python3 version. And a JS version. BECAUSE WHY NOT?!?
 
 
 ```bash
@@ -25,4 +25,8 @@ Custom coords. argc = 5
 Distance between 22.2, 113.9 and -22.4, 114.1:
  * 4959.34 km
  * 3081.59 mi
+
+> js haversine.js 
+4959.34 km
+3081.59 mi
 ```
