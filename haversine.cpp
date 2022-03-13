@@ -41,6 +41,6 @@ int main(int argc, char **argv) {
   }
   float km = haversine(lat0, long0, lat1, long1, true);
   float mi = haversine(lat0, long0, lat1, long1, false);
-  printf("distance between %.6f, %.6f and %.6f, %.6f:\n * %.3f km\n * %.3f mi\n", lat0, long0, lat1, long1, km, mi);
+  printf("distance between %.6f, %.6f and %.6f, %.6f:\n * %.2f km\n * %.2f mi\n", lat0, long0, lat1, long1, km, mi);
   return 0;
 }
